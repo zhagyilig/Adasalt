@@ -1,4 +1,4 @@
-##　saltstack　入门
+## saltstack　入门
 ### 了解saltstack
 ----
 [**SALTSTACK官网link**](http://docs.saltstack.cn/)  
