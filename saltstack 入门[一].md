@@ -1,4 +1,4 @@
-##　saltstack　入门
+## saltstack 入门
 ### 了解saltstack
 ----
 [**SALTSTACK官网link**](http://docs.saltstack.cn/)  
@@ -187,7 +187,8 @@ Salt运用大量的技术和技巧。网络层使用卓越的`ZeroMQ`_ 网络类
 
 ### 遇见的问题：
 	minion启动报错：
-	5] The Salt Master has rejected this minion's public key!To repair this issue, delete the public key for this minion on the Salt Master and restart this minion.Or restart the Salt Master in open mode to clean out the keys. The Salt Minion will now exit.
+	5] The Salt Master has rejected this minion's public key!To repair this issue, delete the public key for this minion on the Salt Master and restart this minion.Or restart the Salt Master in open mode to clean out the keys. The Salt Minion will now exit.  
+
 	解决方法：
 	在启动salt minion的时候saltstack报错：The Salt Master has rejected this minion's public key!
 	这个问题是由于salt minion的id有问题导致的，解决此问题的方法是首先到master上删除saltstack的minion缓存，文件目录位置在： /etc/salt/pki/master/minions。
