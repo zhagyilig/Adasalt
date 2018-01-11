@@ -9,6 +9,7 @@
 #    - cluster.haproxy-outside
 #    - cluster.haproxy-outside-keepalived
 #    - redis.install
+#
 ##################################
 
 base:
